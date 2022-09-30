@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.784);
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+}
+
+#header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #984447;
+}
+
+#header img {
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+}
+
+#header img:hover{
+    transition: 10s;
+    transform: rotate(150000000000deg);
+    
+}
+
+#header h1 {
+    padding-top: 30px;
+    color: #fff;
+}
+#content {
+    background-color: #ADD9F4;
+    color: #000;
+    padding: 50px;
+}
+
+#content h2 {
+    text-align: center;
+}
+
+#content #intro {
+padding-top: 20px;
+}
+#content #overig {
+padding-top: 20px;
+}
+#content #kennis {
+padding-top: 20px;
+}
+#content #kennis ul {
+    padding-left: 15px;
+}
+#experimental {
+    background-color: #476C9B;
+    height: 500px;
+    padding: 50px;
+    
+}
+#experimental h2 {
+    text-align: center;
+}
+#footer {
+    background-color: #fff;
+    height: 100px;
+    color: #000;
+    text-align: center;
+    padding-top: 20px;
+}
+#footer ul {
+    display: block;
+    padding-top: 10px;
+}
+#footer ul li {
+    display: inline-block;
+}
+#footer ul li a {
+    padding: 10px;
+}
+img{
+    width: 115px;
+    height: 75px;
+}
+#h2{
+    transition: 5s;
+    rotate: 800eg;
+}
+          
+
+div#test  {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:10px; top:10px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
